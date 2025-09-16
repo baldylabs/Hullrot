@@ -456,9 +456,9 @@
   id: PlasmaCutterBolt
   damage:
     types:
-      Structural: 40
-      Heat: 20
-      Piercing: 10
+      Structural: 60
+      Heat: 35
+      Piercing: 15
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_heavy
