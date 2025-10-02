@@ -18,7 +18,6 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
         - Blindness
         - WheelchairBound
   special:
@@ -26,9 +25,11 @@
     components:
       - type: ChatRank
         rank: crescent-rank-doc
+      - type: HullrotFaction
+        faction: IPM
       - type: CPRTraining
       - type: SurgerySpeedModifier
-        speedModifier: 2
+        speedModifier: 1.75
       - type: LanguageAdder
         addSpoken:
           - Freespeak

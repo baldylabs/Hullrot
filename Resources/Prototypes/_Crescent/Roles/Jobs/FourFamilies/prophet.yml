@@ -20,7 +20,6 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
         - Muted
         - Blindness
         - WheelchairBound
@@ -29,14 +28,16 @@
     components:
       - type: ChatRank
         rank: crescent-rank-prophet
+      - type: HullrotFaction
+        faction: TAP
       - type: Telepathic
       - type: LanguageAdder
         addSpoken:
-        - OldTaypani
-        - Atyrian
+          - Tradeband
+          - OldTaypani
         addUnderstood:
-        - OldTaypani
-        - Atyrian
+          - Tradeband
+          - OldTaypani
   access:
   - EmergencyShuttleRepealAll
   - Captain

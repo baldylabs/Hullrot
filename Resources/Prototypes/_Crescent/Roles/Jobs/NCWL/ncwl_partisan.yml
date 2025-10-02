@@ -3,7 +3,7 @@
   name: job-name-ncwl-partisan
   description: job-description-ncwl-partisan
   playTimeTracker: JobHomeguardSoldatNCWL
-  weight: 3
+  weight: 5
   startingGear: SoldatNCWLGear
   alwaysUseSpawner: true
   requireAdminNotify: false
@@ -20,8 +20,6 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
-        - ForeignerLight
         - Muted
         - Blindness
         - Pacifist
@@ -31,6 +29,8 @@
     components:
       - type: ChatRank
         rank: crescent-rank-ncwl-home-soldat
+      - type: HullrotFaction
+        faction: NCWL
       - type: LanguageAdder
         addSpoken:
           - Dockta
@@ -61,3 +61,10 @@
     head: ClothingHeadHelmetNCWLBasic
     mask: ClothingMaskNCWLGasmask
     ears: ClothingHeadsetNCWL
+  storage:
+    back:
+    - Flash
+    - Tourniquet
+    - Zipties
+    - MagazinePistol
+    - CombatKnife

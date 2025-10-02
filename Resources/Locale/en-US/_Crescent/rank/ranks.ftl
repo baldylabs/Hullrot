@@ -9,6 +9,7 @@ crescent-rank-ind-gliess-sheriff = Sheriff
 crescent-rank-ind-gliess-deputy = Deputy
 crescent-rank-ind-gliess-dockmaster = Dockmaster
 crescent-rank-ind-spacer = Spacer
+crescent-rank-ind-dockhand = Dockhand
 
 # shi
 crescent-rank-shi-executive = Manager
@@ -53,12 +54,12 @@ crescent-rank-ncwl-grunt = Soldat
 crescent-rank-ncwl-new = Cadet
 crescent-rank-ncwl-doctor = Doktor
 
-#ncwl
+# ncwl
 crescent-rank-ncwl-faction-leader = Major
 crescent-rank-ncwl-home-leader = Kommissar
 crescent-rank-ncwl-home-squad-lead = Kapitan
 crescent-rank-ncwl-home-soldat = Partisan
-crescent-rank-ncwl-logi-leader = Overseer
+crescent-rank-ncwl-logi-leader = Artificer
 crescent-rank-ncwl-engi-leader = Coordinator
 crescent-rank-ncwl-medi-worker = Sanitar
 crescent-rank-ncwl-worker = Comrade

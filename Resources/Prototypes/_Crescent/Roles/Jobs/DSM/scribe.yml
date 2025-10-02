@@ -20,13 +20,14 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
         - Blindness
   special:
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: crescent-rank-smarts
+        rank: crescent-rank-smart
+      - type: HullrotFaction
+        faction: DSM
       - type: BibleUser
       - type: LanguageAdder
         addSpoken:

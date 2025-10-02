@@ -18,14 +18,17 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
         - Blindness
   special:
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
         rank: crescent-rank-agent
+      - type: HullrotFaction
+        faction: IPM
       - type: CPRTraining
+      - type: SurgerySpeedModifier
+        speedModifier: 1.75
       - type: LanguageAdder
         addSpoken:
           - Freespeak

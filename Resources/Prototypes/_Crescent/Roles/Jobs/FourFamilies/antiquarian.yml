@@ -26,13 +26,18 @@
     components:
       - type: ChatRank
         rank: crescent-rank-antiquarian
+      - type: HullrotFaction
+        faction: TAP
+      - type: Telepathic
       - type: LanguageAdder
         addSpoken:
-        - OldTaypani
-        - Freespeak
+          - Tradeband
+          - OldTaypani
+          - Freespeak
         addUnderstood:
-        - OldTaypani
-        - Freespeak
+          - Tradeband
+          - OldTaypani
+          - Freespeak
   access:
   - Families
   - Izdari
