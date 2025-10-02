@@ -535,7 +535,7 @@
     availablePrototypes:
     - Deconstruct
   - type: Gun
-    fireRate: 1
+    fireRate: 2
     projectileSpeed: 30
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
@@ -547,12 +547,12 @@
     startingCharge: 1005
   - type: HitscanBatteryAmmoProvider
     proto: PlasmaCutterBolt
-    fireCost: 250
+    fireCost: 150
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 125
+    autoRechargeRate: 250
     autoRechargePause: true
-    autoRechargePauseTime: 4
+    autoRechargePauseTime: 3
   - type: Item
     size: Normal
     shape:
@@ -564,7 +564,7 @@
   damage:
     types:
       Structural: 60
-      Heat: 35
+      Heat: 25
       Piercing: 15
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
